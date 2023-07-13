@@ -5,17 +5,19 @@
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 90px;
-}ض
+}
 
 ::selection{
     background-color: rgb(77, 71, 71);
     color: white;
 }
-.container-fluid{
+.container{
     background-image: url(../imgs/checkered-tablecloth-blue-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 30px auto;
+    width: 50%;
 }
 
 button{
