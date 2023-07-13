@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+}ض
+
+::selection{
+    background-color: rgb(77, 71, 71);
+    color: white;
+}
+.container-fluid{
+    background-image: url(../imgs/checkered-tablecloth-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button{
+    background-color: #3e959b;
+    color:  white;
+    width: 50%;
+    height: 90px;
+    border-color: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+button:hover{
+    background-color: #fa9751;
+    width: 75%;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
